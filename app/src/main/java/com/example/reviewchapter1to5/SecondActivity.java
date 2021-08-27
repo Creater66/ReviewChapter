@@ -22,4 +22,9 @@ public class SecondActivity extends AppCompatActivity {
             }
         });
     }
+    @Override
+    protected void onRestart() {
+        super.onRestart();
+        Log.d("SecondActivity","onRestart");
+    }
 }

@@ -33,6 +33,6 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onRestart() {
         super.onRestart();
-        Log.d("FirstActivity","onRestart");
+        Log.d("FirstActivity","onRestart worked");
     }
 }
